@@ -5,13 +5,14 @@
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
-    "bots": "^0.0.7",
-    "config": "^4.0.0",
+    "axios": "^1.6.0",
     "express": "^4.21.2",
     "fca-priyansh": "^18.0.0",
     "fs-extra": "^11.3.0",
-    "mkdir": "^0.0.2",
-    "state": "^0.2.0"
+    "path": "^0.12.7"
   }
 }
